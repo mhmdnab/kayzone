@@ -1,6 +1,5 @@
 import Link from "next/link";
 import Image from "next/image";
-import image from "../../../public/kayzonelogo1.png";
 import image1 from "../../../public/kayzonelogo2.png";
 
 export default function Hero() {

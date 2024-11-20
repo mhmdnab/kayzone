@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Facebook, Twitter, Instagram, Linkedin, Phone } from "lucide-react";
+import { Twitter, Instagram, Linkedin, Phone } from "lucide-react";
 import Image from "next/image";
 import image from "../../../public/kayzonelogo1.png";
 

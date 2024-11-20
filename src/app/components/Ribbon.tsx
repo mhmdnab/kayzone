@@ -1,9 +1,4 @@
 "use client";
-import Link from "next/link";
-import { Menu, X } from "lucide-react";
-import logo from "../../../public/kayzonelogo2.png";
-import Image from "next/image";
-import ScrollLink from "./ScrollLink";
 
 export default function RibbonSection() {
   return (
