@@ -1,22 +1,4 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-/* For WebKit-based browsers (e.g., Chrome, Safari) */
-::-webkit-scrollbar {
-  width: 12px; /* Width of the scrollbar */
-}
-
-::-webkit-scrollbar-track {
-  background: transparent; /* Transparent background of the scrollbar track */
-  /* Rounded corners of the scrollbar track */
-}
-
-::-webkit-scrollbar-thumb {
-  background: #797979; /* Color for the scrollbar thumb */
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #6e34cf;
-  /* Slightly more opaque color for the scrollbar thumb when hovered */
-}
+  

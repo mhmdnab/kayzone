@@ -7,7 +7,7 @@ export default function Hero() {
     <section className="bg-gradient-to-r from-[#6e34cf] to-[#010101] text-[#eaeaea] h-screen pt-16">
       <div className="container mx-auto py-8 md:py-8 px-5 md:px-44">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center justify-center">
-          <div className="space-y-6 text-center md:text-left">
+          <div className="space-y-12 text-center md:text-left">
             <h1 className="text-7xl md:text-8xl font-bold leading-tight">
               KAYZONE
             </h1>

@@ -42,9 +42,6 @@ export default function Header() {
             <Link href="#about" className="text-[#eaeaea] hover:text-primary">
               About
             </Link>
-            <Link href="#contact" className="text-[#eaeaea] hover:text-primary">
-              Contact
-            </Link>
           </nav>
 
           {/* CTA Button */}
@@ -53,7 +50,7 @@ export default function Header() {
               href="/plans"
               className="bg-[#6e34cf] text-[#eaeaea] px-4 py-2 rounded-md hover:bg-primary-dark transition duration-300"
             >
-              View Plans
+              Contact Us
             </Link>
           </div>
 
@@ -89,17 +86,12 @@ export default function Header() {
             >
               About
             </Link>
-            <Link
-              href="#contact"
-              className="block py-2 text-[#eaeaea] hover:text-primary"
-            >
-              Contact
-            </Link>
+
             <Link
               href="/plans"
               className="block py-2 mt-4 bg-[#6e34cf] text-[#eaeaea] px-4 rounded-md transition duration-300"
             >
-              View Plans
+              Contact Us
             </Link>
           </nav>
         )}

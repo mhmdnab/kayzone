@@ -24,13 +24,17 @@ export default function Footer() {
             <Link
               href="https://twitter.com"
               className="text-gray-600 hover:text-primary"
+              rel="noopener noreferrer"
+              target="_blank"
             >
               <span className="sr-only">Twitter</span>
               <Twitter className="h-6 w-6" />
             </Link>
             <Link
-              href="https://instagram.com"
+              href="https://www.instagram.com/kayzone.ag"
               className="text-gray-600 hover:text-primary"
+              rel="noopener noreferrer"
+              target="_blank"
             >
               <span className="sr-only">Instagram</span>
               <Instagram className="h-6 w-6" />
@@ -38,11 +42,18 @@ export default function Footer() {
             <Link
               href="https://linkedin.com"
               className="text-gray-600 hover:text-primary"
+              rel="noopener noreferrer"
+              target="_blank"
             >
               <span className="sr-only">LinkedIn</span>
               <Linkedin className="h-6 w-6" />
             </Link>
-            <Link href="" className="text-gray-600 hover:text-primary">
+            <Link
+              href=""
+              rel="noopener noreferrer"
+              target="_blank"
+              className="text-gray-600 hover:text-primary"
+            >
               <span className="sr-only">LinkedIn</span>
               <Phone className="h-6 w-6" />
             </Link>
