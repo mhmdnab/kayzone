@@ -1,7 +1,7 @@
-import Hero from "./components/Hero";
-import Portfolio from "./components/Portfolio";
-import RibbonSection from "./components/Ribbon";
-import Services from "./components/Services";
+import Hero from "../components/Hero";
+import Portfolio from "../components/Portfolio";
+import RibbonSection from "../components/Ribbon";
+import Services from "../components/Services";
 
 export default function Home() {
   return (

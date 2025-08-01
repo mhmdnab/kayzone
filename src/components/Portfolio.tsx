@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import image from "../../../public/455906215_1906095029856519_2605681304601479586_n.jpg";
+import image from "../../public/455906215_1906095029856519_2605681304601479586_n.jpg";
 import Link from "next/link";
 
 const Portfolio = () => {

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Twitter, Instagram, Linkedin, Phone } from "lucide-react";
 import Image from "next/image";
-import image from "../../../public/kayzonelogo1.png";
+import image from "../../public/kayzonelogo1.png";
 
 export default function Footer() {
   return (

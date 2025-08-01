@@ -1,8 +1,8 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
-import { Menu, X } from "lucide-react";
-import logo from "../../../public/kayzonelogo2.png";
+import { Menu, Scroll, X } from "lucide-react";
+import logo from "../../public/kayzonelogo2.png";
 import Image from "next/image";
 import ScrollLink from "./ScrollLink";
 
@@ -27,12 +27,12 @@ export default function Header() {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">
-            <Link
+            <ScrollLink
               href="#services"
               className="text-[#eaeaea] hover:text-primary"
             >
               Services
-            </Link>
+            </ScrollLink>
             <ScrollLink
               href="#portfolio"
               className="text-[#eaeaea] hover:text-primary"
@@ -47,7 +47,7 @@ export default function Header() {
           {/* CTA Button */}
           <div className="hidden md:block">
             <Link
-              href="/plans"
+              href="/contact"
               className="bg-[#6e34cf] text-[#eaeaea] px-4 py-2 rounded-md hover:bg-primary-dark transition duration-300"
             >
               Contact Us
@@ -88,7 +88,7 @@ export default function Header() {
             </Link>
 
             <Link
-              href="/plans"
+              href="/contact"
               className="block py-2 mt-4 bg-[#6e34cf] text-[#eaeaea] px-4 rounded-md transition duration-300"
             >
               Contact Us
