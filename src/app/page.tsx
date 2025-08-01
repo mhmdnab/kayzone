@@ -1,3 +1,4 @@
+import About from "@/components/About";
 import Hero from "../components/Hero";
 import Portfolio from "../components/Portfolio";
 import RibbonSection from "../components/Ribbon";
@@ -9,6 +10,7 @@ export default function Home() {
       <Hero />
       <RibbonSection />
       <Services />
+      <About />
       <Portfolio />
     </div>
   );

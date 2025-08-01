@@ -7,14 +7,14 @@ const Portfolio = () => {
   return (
     <section
       id="portfolio"
-      className="bg-gradient-to-r from-[#010101] to-[#6e34cf] text-[#eaeaea] py-16 md:py-32 px-3 md:px-44"
+      className="bg-[#eaeaea] text-[#6e34cf] py-16 md:py-32 px-3 md:px-44"
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-12">
           Our Team have Worked for
         </h2>
 
-        <p className="text-xl text-center text-[#eaeaea]/80 mb-12">
+        <p className="text-xl text-center text-[#6e34cf]/80 mb-12">
           Discover how my team have contributed with clients whom grow their
           presence and influence on social media.
         </p>

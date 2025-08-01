@@ -39,9 +39,12 @@ export default function Header() {
             >
               Portfolio
             </ScrollLink>
-            <Link href="#about" className="text-[#eaeaea] hover:text-primary">
+            <ScrollLink
+              href="#about"
+              className="text-[#eaeaea] hover:text-primary"
+            >
               About
-            </Link>
+            </ScrollLink>
           </nav>
 
           {/* CTA Button */}
